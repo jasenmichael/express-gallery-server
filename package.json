@@ -1,0 +1,31 @@
+{
+  "name": "gallery-server",
+  "version": "1.0.0",
+  "description": "Creates a restful api of images urls and serve those files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasenmichael/express-gallery-server.git"
+  },
+  "keywords": [
+    "gallery",
+    "express",
+    "restful api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasenmichael/express-gallery-server/issues"
+  },
+  "homepage": "https://github.com/jasenmichael/express-gallery-server#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  }
+}

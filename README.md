@@ -9,12 +9,15 @@ cd express-gallery-server
 
 npm install
 
-npm start
 ```
 
-then goto [localhost:3000](http://localhost:3000) in your browser
+add an image folder to the root directory, or edit the imagePath variable in index.js (line 2),
+then run
 
-add image folder to the root directory, or edit the imagePath variable in index.js (line 2).
+```
+npm start
+```
+then goto [localhost:3000](http://localhost:3000) in your browser
 
 the api endpoint is available at [localhost:3000/api/images](http://localhost:3000/api/images)
 

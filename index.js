@@ -1,3 +1,6 @@
+// config images ditertory
+const imagesDir = "./images"
+
 const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
@@ -14,8 +17,6 @@ app.use(morgan('tiny'))
 const path = require('path');
 app.use(express.static(path.join(__dirname, './app')))
 
-// Get images and initialize the images array
-const imagesDir = "./images"
 var imageList = []
 
 getImagesList()

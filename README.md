@@ -20,3 +20,4 @@ the api endpoint is available at [localhost:3000/api/images](http://localhost:30
 
  * [ ] Implement upload image to server feature.
  * [ ] Re-factor add-images.html into a template or modal.
+ * [ ] Implement search - filter from title and description.

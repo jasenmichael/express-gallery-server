@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Gallery</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+  <link rel="stylesheet" href="./assets/css/lightgallery.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="./assets/css/materialize.min.css">
+  <link rel="stylesheet" href="./assets/main.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <h1 white-text><a class="white-text" href="#main">Image Server Gallery</a></h1>
+    <h5><a class="white-text" href="#main">A lite Express file server and Api with a decoupled Client app</a></h5>
+  </header>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/thumbs/banner.jpg" class=""></div>
+  </div>
+
+  <div id="main" class="section">
+    <div class="row container">
+      <h4 class="header white-text">Masonry Image Gallery</h4>
+
+      <!-- search component -->
+      <div class="container header-search-wrapper white-text ">
+        <div class="container left">
+          <div class="input-field col">
+            <i class="material-icons prefix">search</i>
+            <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="   Search Images.....">
+          </div>
+        </div>
+      </div>
+      <!-- search component -->
+
+    </div>
+
+    <!-- main content wrapper -->
+    <div id="content" class="wrapper content">
+
+      <!-- gallery -->
+      <div id="gallery" class="masonry masonry--h">
+        <!-- image injection here -->
+      </div>
+
+      <!-- todo: add images modal -->
+      <a id="add-images-btn" class="waves-effect waves-light btn-floating" href="./add-images.html"><i class="material-icons">add</i></a>
+      <a id="scroll-up" class="right waves-effect waves-light btn-floating" href="#gallery"><i class="material-icons">arrow_drop_up</i></a>
+
+      <!-- add-images modal-start -->
+      <div id="add-images" class="modal">
+        <h1>hello - add images modal</h1>
+      </div>
+      <!-- add-images modal-end -->
+
+
+      <footer>
+
+        <div class="col s12">
+          <div id="footer" class="row card s12 white">
+
+            <!-- 1st footer section -->
+            <ul class="col s12 m6 l4 card-content">
+              <h6>Other Templates & Projects</h6>
+              <li><a class="nav-link" target="_blank" href="http://jmh-galvanize-portfolio-3.surge.sh/">My solution to "Problem22"</a></li>
+              <li><a class="nav-link" target="_blank" href="http://jmh-galvanize-portfolio.surge.sh/">Example Portfolio</a></li>
+              <li><a class="nav-link" target="_blank" href="http://jmh-galvanize-portfolio-2.surge.sh/">Mountain Cabin Gallery</a></li>
+              <br>
+              <li><a class="nav-link" target="_blank" href="./api/images"><i>gallery-server-api</i></a></li>
+            </ul>
+
+            <!-- 2nd footer section -->
+            <div class="col s12 m6 l4 card-content center-align">
+              <h5>Gallery Server</h5>
+              <h6><i>Author: </i>@jasenmichael</h6>
+              <i class="social fab fa-github fa-2x"></i>
+              <i class="social fab fa-linkedin fa-2x"></i>
+              <i class="social fab fa-facebook fa-2x"></i>
+              <i class="social fab fa-instagram fa-2x"></i>
+              <br>
+              <h6><a href="#">Photography by Jonathan Hoag</a></h6>
+            </div>
+
+            <!-- 3rd footer section -->
+            <div class="col s12 m6 l4 card-content">
+              <ul>
+                <li><a href="#"><i class="social fab fa-github"></i> Express Server Src code on GitHub</a></li>
+                <li><a href="#"><i class="social fab fa-github"></i> Decoupled Client Src code on GitHub</a></li>
+                <li><a href="#"><i class="social fab fa-github"></i> Bundled Server and Client Src code on GitHub</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </footer>
+
+    </div>
+    <!-- end main content wrapper -->
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/lightgallery.min.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="./assets/js/materialize.min.js"></script>
+    <script src="./assets/js/axios.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>

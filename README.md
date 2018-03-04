@@ -21,6 +21,8 @@ then goto [localhost:3000](http://localhost:3000) in your browser
 
 the api endpoint is available at [localhost:3000/api/images](http://localhost:3000/api/images)
 
+![screenshot](screenshot.png)
+
 #### ToDo
 
  * [ ] Implement upload image to server feature.

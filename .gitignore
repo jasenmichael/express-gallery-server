@@ -1,4 +1,5 @@
 node_modules
+bak/**
 
 # keep some css needed as assets, and extra for future dev.
 app/assets/css/**

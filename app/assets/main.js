@@ -1,5 +1,5 @@
 let images = []
-const apiUrl = "https://localhost/api/images"
+const apiUrl = "https://express-gallery-server.herokuapp.com/api/images"
 //const apiUrl = "http://localhost:3000/api/images"
 
 axios.get(apiUrl)

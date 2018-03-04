@@ -2,6 +2,10 @@
 
 #### a lite node express file server and api endpoint, with a decoupled client app.
 
+
+### Check out the [demo](https://express-gallery-server.herokuapp.com/
+)
+
 ```
 git clone https://github.com/jasenmichael/express-gallery-server.git
 

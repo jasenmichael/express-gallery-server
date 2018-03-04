@@ -1,6 +1,7 @@
 # express-gallery-server
 
-clone
+#### a lite node express file server and api endpoint, with a decoupled client app.
+
 ```
 git clone https://github.com/jasenmichael/express-gallery-server.git
 

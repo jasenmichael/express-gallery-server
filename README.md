@@ -17,6 +17,8 @@ the api endpoint is available at [localhost:3000/api/images](http://localhost:30
 
 ![screenshot](screenshot.png)
 
+sample images provided by @jonathanhoag
+
 #### ToDo
 
  * [ ] Implement upload image to server feature.

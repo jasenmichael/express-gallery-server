@@ -1,5 +1,4 @@
 node_modules
-images/**
 
 # keep some css needed as assets, and extra for future dev.
 app/assets/css/**

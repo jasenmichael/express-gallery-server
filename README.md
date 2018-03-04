@@ -9,12 +9,6 @@ cd express-gallery-server
 
 npm install
 
-```
-
-add an image folder to the root directory, or edit the imagePath variable in index.js (line 2),
-then run
-
-```
 npm start
 ```
 then goto [localhost:3000](http://localhost:3000) in your browser

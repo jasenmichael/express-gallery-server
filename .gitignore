@@ -1,3 +1,16 @@
 node_modules
 images/**
-!client/dist/**
+
+# keep some css needed as assets, and extra for future dev.
+app/assets/css/**
+!app/assets/css/dropify.css
+!app/assets/css/dropify.min.css
+!app/assets/css/lightgallery.min.css
+!app/assets/css/lightgallery.css
+!app/assets/css/lightgallery.css.map
+!app/assets/css/lg-transitions.css.map
+!app/assets/css/materialize.css
+!app/assets/css/materialize.min.css
+
+# keep all js assets for now
+# app/assets/js/**.js

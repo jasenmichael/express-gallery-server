@@ -2,6 +2,13 @@ let images = []
 //const apiUrl = "https://express-gallery-server.herokuapp.com/api/images"
 const apiUrl = "http://localhost:3000/api/images"
 
+
+// todo:
+// gallery.innerHTML = ""
+// loadImages(images)
+
+
+
 axios.get(apiUrl)
   .then(response => {
     // console.log(response.data)
@@ -16,9 +23,9 @@ let gallery = document.getElementById('gallery')
 
 function loadImages(images) {
 
-  images.forEach(image => {
+  images.forEach((image, index) => {
     let imageTemplate = `
-    <a class="masonry-brick masonry-brick--h" href="./images/${image.path}" data-src="./images/${image.path}">
+    <a id="${index}" class="masonry-brick masonry-brick--h" href="./images/${image.path}" data-src="./images/${image.path}">
       <img src="./images/thumbs/${image.path}" class="masonry-img"/>
     </a>
    `
